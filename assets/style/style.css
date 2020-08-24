@@ -1,4 +1,5 @@
 /* universal style */
+
 * {
     box-sizing: border-box;
     margin: 0px;
@@ -6,42 +7,35 @@
 }
 
 .card-body {
-   font-size: 22px;
-}
-
-.score {
-    color: #8064A2;
-    float: left;
-    padding-left: 20px;
-}
-
-.time {
-float: right;
-padding-right: 20px;
-}
-
-
-h1 {
-    padding-top: 150px;
-    font-weight: bold;
-    font-size: 40px;
-    text-align: center;
-    font-family: "Josefin Sans", sans-serif;
-}
-
-p {
-    padding: 20px;
-    font-size: 20px;
-    text-align: center;
-    font-family: "Josefin Sans", sans-serif;
-
-}
-
-.btn {
-    text-align: center;
-    background-color: #8064A2;
-    border-color: #8064A2;
-    color: white;
     font-size: 22px;
-    padding: 0px 12px 0px 12px;
-}
+ }
+ 
+ /* HEADER */
+ .score {
+     color: #8064A2;
+     float: left;
+     color: #8064A2 !important;
+     padding-left: 20px;
+ }
+ 
+ @@ -21,6 +17,20 @@ float: right;
+ padding-right: 20px;
+ }
+ 
+ /* START */
+ .start {
+     /* display: none; */
+ }
+ 
+ .explanation {
+     /* display: none; */
+ }
+ 
+ /* BODY */
+ 
+ .quizquestion {
+     font-size: 22px;
+ }
+ 
+ h1 {
+     padding-top: 150px;
